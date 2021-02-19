@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Include="Simple_type.fs" />
+        <Compile Include="Dependencies.fs" />
+        <Compile Include="Graphics.fs" />
+        <Compile Include="Visualisation.fs" />
+        <None Include="Script.fsx" />
+        <Content Include="paket.references" />
+        <Content Include="paket.template" />
+    </ItemGroup>
+
+</Project>
